@@ -6,5 +6,8 @@ module.exports = {
   "moduleFileExtensions": [
     "js",
     "svelte"
-  ]
+  ],
+  "moduleNameMapper": {
+    "^.+\\.css$": "identity-obj-proxy"
+  }
 }
